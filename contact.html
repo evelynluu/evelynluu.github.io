@@ -40,7 +40,7 @@
   <div class="form-container">
     <script type="text/javascript">var submitted=false;</script>
     
-    <form name="gform" id="mG61Hd" enctype="text/plain" class="contact-form"
+    <form name="gform" id="gform" enctype="text/plain" class="contact-form"
      action="https://docs.google.com/forms/d/e/1FAIpQLSeQrz03wWj6vNLZbxX3ewtrbjjVqigeSKivTI6282TIWXRzEA/formResponse" 
      method="POST" accept-charset="UTF-8" target="hidden_iframe" onsubmit="submitted=true;">
       <label>Name</label>
@@ -52,20 +52,17 @@
       <label>Message</label>
       <textarea name="entry.18814513" id="entry.18814513" tabindex="3" required></textarea>
 
-      <button id="contact-submit" type="submit" tabindex="4">Submit</button>
+      <button id="contact-submit" type="submit" tabindex="4">Send</button>
     </form>
     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
   </div>
  
-  <!--
-  <script src="scripts/jquery.min.js"></script>
   <script type="text/javascript">
     $('#gform').on('submit', function(e) {
       $('#gform').prepend('<p class="submission-msg">Thank you for your message! I will reply soon.</p>');
       this.reset();
     });
   </script>
--->
   
 </body>
 </html>
