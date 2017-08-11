@@ -41,19 +41,19 @@
   <!-- Script credit: https://github.com/toperkin/staticFormEmails -->
   <div class="form-container">
     <script type="text/javascript">var submitted=false;</script>
-    
+
     <form name="gform" id="gform" enctype="text/plain" class="contact-form"
-     action="https://docs.google.com/forms/d/e/1FAIpQLSeQrz03wWj6vNLZbxX3ewtrbjjVqigeSKivTI6282TIWXRzEA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+    action="https://docs.google.com/forms/d/e/1FAIpQLSeQrz03wWj6vNLZbxX3ewtrbjjVqigeSKivTI6282TIWXRzEA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
       <label>Name</label>
-      <input type="text" name="entry.1000216864" id="entry.1000216864" tabindex="1" required/>
+      <input type="text" name="entry.1000216864" id="entry.1000216864" required/>
 
       <label>Email</label>
-      <input type="email" name="entry.1531869144" id="entry.1531869144" tabindex="2" required pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"/>
+      <input type="email" name="entry.1531869144" id="entry.1531869144" required pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"/>
 
       <label>Message</label>
-      <textarea type="text" name="entry.18814513" id="entry.18814513" tabindex="3" required></textarea>
+      <textarea type="text" name="entry.18814513" id="entry.18814513" required></textarea>
 
-      <input id="contact-submit" type="submit" tabindex="4" value="Send">
+      <input id="contact-submit" type="submit" value="Send">
     </form>
 
     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
