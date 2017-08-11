@@ -52,11 +52,11 @@
       <input id="contact-submit" type="submit" value="Send">
     </form>
 
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { location.reload(); }"></iframe>
   </div>
 
   <script src="scripts/jquery.min.js"></script>
-  <script type="text/javascript">var submitted=false;</script>
   <script src="scripts/script.js"></script>
 </body>
 </html>
