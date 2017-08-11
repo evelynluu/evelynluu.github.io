@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <script src="scripts/jquery.min.js"></script>
+</head>
+
+<body>
+  <script type="text/javascript">var submitted=false;</script>
+
+  <form name="gform" id="gform" enctype="text/plain"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSeQrz03wWj6vNLZbxX3ewtrbjjVqigeSKivTI6282TIWXRzEA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+
+  <label>First name:</label><br>
+  <input type="text" name="entry.1000216864" id="entry.1000216864" required/><br>
+
+  <label>Email:</label><br>
+  <input type="email" name="entry.1531869144" id="entry.1531869144" required pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z ]{2,4}|[0-9]{1,3})(\]?)$"/><br>
+
+  <label>Message:</label><br>
+  <textarea type="text" name="entry.18814513" id="entry.18814513" required></textarea><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
+</body>
+</html>
