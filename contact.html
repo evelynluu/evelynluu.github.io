@@ -5,7 +5,6 @@
 
   <!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
-  <link rel="stylesheet" type="text/css" href="stylesheets/theme-borealis.css"/>
 </head>
 
 <body>
@@ -55,6 +54,13 @@
   </div>
 
   <script src="scripts/jquery.min.js"></script>
-  <script src="scripts/script.js"></script>
+  <script type="text/javascript">var submitted=false;</script>
+  <script type="text/javascript">
+    $('#gform').on('submit', function(e) {
+      $('#gform').prepend('<p class="submission-msg">Thank you for your message! I will reply soon.</p>');
+      this.reset();
+    });
+  </script>
+  
 </body>
 </html>
