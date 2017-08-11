@@ -306,13 +306,13 @@ form.contact-form{
 }
 
 .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea,
-.contact-form button[type="submit"]{
+.contact-form input[type="submit"]{
   font-family: 'Arial', sans-serif;
   font-size: 1em;
   color: #FFF;
 }
 
-.contact-form button[type="submit"]{
+.contact-form input[type="submit"]{
   display: block;
   width: 10vw;
   min-width: 100px;
@@ -327,7 +327,7 @@ form.contact-form{
   border-radius: 80px;
 }
 
-.contact-form button[type="submit"]:hover, .contact-form button[type="submit"]:active{
+.contact-form input[type="submit"]:hover, .contact-form button[type="submit"]:active{
   background-color: #323646;
 }
 
