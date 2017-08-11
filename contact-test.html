@@ -42,19 +42,19 @@
   <div class="form-container">
   <script type="text/javascript">var submitted=false;</script>
 
-  <form name="gform" id="gform" enctype="text/plain"
+  <form name="gform" id="gform" class="contact-form" enctype="text/plain"
   action="https://docs.google.com/forms/d/e/1FAIpQLSeQrz03wWj6vNLZbxX3ewtrbjjVqigeSKivTI6282TIWXRzEA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 
   <label>First name:</label><br>
-  <input type="text" name="entry.1000216864" id="entry.1000216864" required/><br>
+  <input type="text" name="entry.1000216864" id="entry.1000216864" tabindex="1" required/><br>
 
   <label>Email:</label><br>
-  <input type="email" name="entry.1531869144" id="entry.1531869144" required pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z ]{2,4}|[0-9]{1,3})(\]?)$"/><br>
+  <input type="email" name="entry.1531869144" id="entry.1531869144" tabindex="2" required pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z ]{2,4}|[0-9]{1,3})(\]?)$"/><br>
 
   <label>Message:</label><br>
-  <textarea type="text" name="entry.18814513" id="entry.18814513" required></textarea><br>
+  <textarea type="text" name="entry.18814513" id="entry.18814513" tabindex="3" required></textarea><br>
 
-  <input type="submit" value="Submit">
+  <input type="submit" value="Submit" tabindex="4">
 </form>
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
