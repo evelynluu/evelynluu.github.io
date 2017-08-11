@@ -8,6 +8,8 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/theme-borealis.css"/>
 
   <script src="scripts/jquery.min.js"></script>
+  <script type="text/javascript">var submitted=false;</script>
+  <script src="scripts/script.js"></script>
 </head>
 
 <body>
@@ -40,8 +42,6 @@
   <!-- Form -->
   <!-- Script credit: https://github.com/toperkin/staticFormEmails -->
   <div class="form-container">
-    <script type="text/javascript">var submitted=false;</script>
-
     <form name="gform" id="gform" enctype="text/plain" class="contact-form"
     action="https://docs.google.com/forms/d/e/1FAIpQLSeQrz03wWj6vNLZbxX3ewtrbjjVqigeSKivTI6282TIWXRzEA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
       <label>Name</label>
@@ -57,9 +57,6 @@
     </form>
 
     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
-    <script src="scripts/script.js"></script>
   </div>
-
 </body>
 </html>
