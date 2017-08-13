@@ -253,10 +253,8 @@ form.contact-form input[type="submit"]:hover, form.contact-form input[type="subm
 /************** ID **************/
 #logo-header {
   position: relative;
-  min-width: auto;
   max-width: 100%;
-  min-height: 90%;
-  max-height: auto;
+  height: auto;
   margin: 0;
   padding: 0;
   top: 10%; }
@@ -272,7 +270,7 @@ form.contact-form input[type="submit"]:hover, form.contact-form input[type="subm
 #logo-splash {
   position: relative;
   max-width: 100%;
-  min-height: 90%;
+  height: auto;
   top: 10%;
   left: 10%; }
 
