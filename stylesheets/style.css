@@ -36,7 +36,7 @@ p {
 p.description {
   margin-top: 2vh; }
 
-p.description-one-line {
+p.description-centered {
   text-align: center; }
 
 p.submission-msg {
@@ -47,7 +47,7 @@ p.submission-msg {
 
 img {
   display: block;
-  max-width: 50vw;
+  max-width: 30vw;
   height: auto;
   margin: 0 2vw 0 2vw; }
 
@@ -136,12 +136,15 @@ p.flex-item {
   flex: 1.5;
   margin: 0 5vw 0 5vw; }
 
-img.flex-item {
+img.flex-item, img.flex-two-item, img.flex-three-item {
   flex: 1;
-  width: 100%;
-  max-width: 30vw;
-  height: auto;
   margin-bottom: 1vh; }
+
+img.flex-two-item {
+  max-width: 35vw; }
+
+img.flex-three-item {
+  max-width: 25vw; }
 
 div.flex-container {
   display: flex;
