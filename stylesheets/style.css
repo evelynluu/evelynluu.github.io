@@ -28,9 +28,6 @@ h1.page-title {
   margin-top: 10vh;
   margin-bottom: 5vh; }
 
-span.arial {
-  font-family: "Roboto", sans-serif; }
-
 p {
   width: 70%;
   height: auto;
@@ -141,7 +138,9 @@ p.flex-item {
 
 img.flex-item {
   flex: 1;
-  max-height: 20vw;
+  width: 100%;
+  max-width: 30vw;
+  height: auto;
   margin-bottom: 1vh; }
 
 div.flex-container {
