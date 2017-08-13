@@ -9,15 +9,15 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   line-height: 1.5em;
-  color: #EAEAEA;
-  background-color: #47697A; }
+  color: #F8F8F8;
+  background-color: #364059; }
 
 h1 {
   font-family: "Roboto", sans-serif;
   font-size: 2.5em;
   font-weight: normal;
   text-align: center;
-  color: #07A498; }
+  color: #5ED564; }
 
 h1.page-title-invisible {
   margin-top: 0vh;
@@ -55,14 +55,14 @@ img {
   margin: 0 2vw 0 2vw; }
 
 a {
-  color: #B5B588;
+  color: #47ADD0;
   text-decoration: none; }
 
 a:hover {
   text-decoration: bold; }
 
 a:visited {
-  color: #B5B588;
+  color: #47ADD0;
   text-decoration: none; }
 
 a.portfolio-top {
@@ -76,8 +76,8 @@ a.portfolio-top {
   border-bottom: 2px solid transparent; }
 
 a.portfolio-top:hover {
-  border-top: 2px solid #5C3337;
-  border-bottom: 2px solid #5C3337; }
+  border-top: 2px solid #5ED564;
+  border-bottom: 2px solid #5ED564; }
 
 div.portfolio-nav {
   display: block;
@@ -92,11 +92,11 @@ div.portfolio-nav a {
   max-width: 150px;
   padding: 2vh;
   margin: 2vh auto 5vh auto;
-  background-color: #344d5a;
-  border: 2px solid #5C3337;
+  background-color: #495779;
+  border: 2px solid #5ED564;
   border-radius: 80px; }
 div.portfolio-nav a:hover, div.portfolio-nav a:active {
-  background-color: #2d424d; }
+  background-color: #404b69; }
 div.portfolio-nav a.left-item {
   margin-left: 3vw; }
 div.portfolio-nav a.right-item {
@@ -127,12 +127,12 @@ nav a {
   font-size: 1.3em;
   border: 2px solid transparent; }
 nav a:hover {
-  border-top: 2px solid #5C3337;
-  border-bottom: 2px solid #5C3337; }
+  border-top: 2px solid #5ED564;
+  border-bottom: 2px solid #5ED564; }
 
 .nav-highlighted {
-  border-top: 2px solid #5C3337;
-  border-bottom: 2px solid #5C3337; }
+  border-top: 2px solid #5ED564;
+  border-bottom: 2px solid #5ED564; }
 
 /************** Flex Containers & Items **************/
 p.flex-item {
@@ -166,11 +166,11 @@ section.img-container {
   position: relative; }
 
 a.img-container-link:hover div.img-caption {
-  border-top: 2px solid #5C3337;
+  border-top: 2px solid #5ED564;
   width: 60%; }
 a.img-container-link:hover div.img-caption-small {
   border-top: 0;
-  border-bottom: 2px solid #5C3337;
+  border-bottom: 2px solid #5ED564;
   width: 60%; }
 
 a.img-caption-link {
@@ -178,8 +178,8 @@ a.img-caption-link {
   border: 2px solid transparent; }
 
 a.img-caption-link:hover {
-  border-top: 2px solid #5C3337;
-  border-bottom: 2px solid #5C3337; }
+  border-top: 2px solid #5ED564;
+  border-bottom: 2px solid #5ED564; }
 
 div.img-caption {
   margin-left: auto;
@@ -210,7 +210,7 @@ form.contact-form label {
   display: block;
   margin-top: 1.75vh;
   margin-bottom: 0.75vh;
-  color: #EAEAEA;
+  color: #F8F8F8;
   font-size: 1.15em; }
 form.contact-form input {
   width: 25vw;
@@ -218,7 +218,7 @@ form.contact-form input {
   height: 2.5vw;
   min-height: 20px;
   padding: 0.3em 0.85vw 0.3em 0.85vw;
-  background-color: #344d5a;
+  background-color: #495779;
   border: 0; }
 form.contact-form textarea {
   width: 25vw;
@@ -226,7 +226,7 @@ form.contact-form textarea {
   height: 15vh;
   resize: vertical;
   padding: 0.85vw;
-  background-color: #344d5a;
+  background-color: #495779;
   border: 0; }
 form.contact-form input:focus, form.contact-form textarea:focus {
   outline: 0;
@@ -234,7 +234,7 @@ form.contact-form input:focus, form.contact-form textarea:focus {
 form.contact-form input[type="text"], form.contact-form input[type="email"], form.contact-form textarea,
 form.contact-form input[type="submit"] {
   font-size: 1em;
-  color: #EAEAEA; }
+  color: #F8F8F8; }
 form.contact-form input[type="submit"] {
   display: block;
   width: 10vw;
@@ -243,12 +243,12 @@ form.contact-form input[type="submit"] {
   margin: 3vh auto 3vh auto;
   padding: 1.25vh 0 1.25vh 0;
   font-size: 1.3em;
-  color: #B5B588;
-  background-color: #344d5a;
-  border: 2px solid #5C3337;
+  color: #47ADD0;
+  background-color: #495779;
+  border: 2px solid #5ED564;
   border-radius: 80px; }
 form.contact-form input[type="submit"]:hover, form.contact-form input[type="submit"]:active {
-  background-color: #2d424d; }
+  background-color: #404b69; }
 
 /************** ID **************/
 #logo-header {

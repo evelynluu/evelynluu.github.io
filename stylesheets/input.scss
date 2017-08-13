@@ -3,13 +3,13 @@ $font-size: 16px;
 $symbol-font: 'Roboto', sans-serif;
 $header-font: 'Roboto', sans-serif;
 
-$background-color: #47697A;
-$primary-color: #EAEAEA;
-$secondary-color: #B5B588;
-$accent1-color: #07A498;
-$accent2-color: #5C3337;
-$color-opacity: darken($background-color, 10%);
-$color-flash: darken($color-opacity, 4%);
+$background-color: #364059;
+$primary-color: #F8F8F8;
+$secondary-color: #47ADD0;
+$accent1-color: #5ED564;
+$accent2-color: #5ED564;
+$color-opacity:lighten($background-color, 10%);
+$color-flash: darken($color-opacity, 5%);
 
 @mixin highlight-link($color){
   border-top: 2px solid $color;
