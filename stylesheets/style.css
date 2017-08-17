@@ -12,7 +12,7 @@ body {
   color: #F8F8F8;
   background-color: #364059; }
 
-h1 {
+h1, h2 {
   font-family: "Roboto", sans-serif;
   font-size: 2.5em;
   font-weight: normal;
@@ -26,6 +26,10 @@ h1.page-title-invisible {
 
 h1.page-title {
   margin-top: 10vh;
+  margin-bottom: 3vh; }
+
+h2 {
+  font-size: 1.5em;
   margin-bottom: 5vh; }
 
 p {
@@ -111,7 +115,7 @@ nav {
   width: 100%;
   height: auto;
   margin: 0;
-  margin-bottom: 5vh;
+  margin-bottom: 4vh;
   padding: 0;
   text-align: center;
   list-style: none; }
@@ -159,7 +163,7 @@ div.flex-two-item-row {
 
 div.flex-three-item-row {
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   padding: 3vh;
   margin-bottom: 2%; }
 
@@ -192,7 +196,8 @@ div.img-caption {
   border-top: 2px solid transparent; }
 
 div.img-caption-small {
-  font-size: 1em;
+  font-size: 1.1em;
+  margin-top: .25vh;
   border-top: 0;
   border-bottom: 2px solid transparent; }
 
