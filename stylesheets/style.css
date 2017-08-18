@@ -143,7 +143,8 @@ p.flex-item {
 
 img.flex-item, img.flex-two-item, img.flex-three-item {
   flex: 1;
-  margin-bottom: 1vh; }
+  margin-bottom: 1vh;
+  max-width: 70vw; }
 
 img.flex-two-item {
   max-width: 30vw; }
@@ -154,16 +155,16 @@ img.flex-three-item {
 div.flex-container {
   display: flex;
   orient: horizontal;
-  flex-flow: row wrap; }
-
-div.flex-two-item-row {
+  flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
   padding: 2vh 7vw 0 7vw; }
 
+div.flex-two-item-row {
+  padding-left: 10vw;
+  padding-right: 10vw; }
+
 div.flex-three-item-row {
-  justify-content: space-around;
-  align-items: flex-start;
   padding: 3vh;
   margin-bottom: 2%; }
 
