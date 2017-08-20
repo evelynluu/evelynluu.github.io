@@ -400,19 +400,33 @@ form.contact-form{
   font-size: 1em;
 }
 
-/************** Responsive Site: Portrait **************/
-@media screen and (orientation: portrait) {
-  #logo-splash {
-    max-width: 100%;
-    height: auto;
+/************** Responsive Site **************/
+@media screen and (max-width: 45em) {
+  div.flex-container{
+    orient: vertical;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
   }
-}
 
-/************** Responsive Site: Landscape **************/
-@media screen and (orientation: landscape) {
-  #logo-splash {
-    min-height: 80%;
-    /*max-height: 90%;*/
-    width: auto;
+  .img-container{
+    margin-bottom: 10vh;
+  }
+
+  img.flex-item{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+
+  img.flex-two-item{
+    max-width: 70vw;
+  }
+
+  img.flex-three-item{
+    max-width: 70vw;
+  }
+
+  a.portfolio-top{
+    width: 35vw;
   }
 }
