@@ -78,6 +78,13 @@ p.submission-msg{
   text-align: center;
 }
 
+figcaption{
+  width: 30vw;
+  margin: 0 auto;
+  text-align: center;
+  font-size: .95em;
+}
+
 img{
   display: block;
   max-width: 30vw;
@@ -146,6 +153,10 @@ div.portfolio-nav {
   a.right-item{
     margin-right: 3vw;
   }
+}
+
+div.portfolio-row{
+  margin-bottom: 10vh;
 }
 
 footer{
@@ -428,5 +439,9 @@ form.contact-form{
 
   a.portfolio-top{
     width: 30vw;
+  }
+
+  div.portfolio-row{
+    margin-bottom: 3vh;
   }
 }

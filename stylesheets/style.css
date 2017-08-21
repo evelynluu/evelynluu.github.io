@@ -49,6 +49,12 @@ p.submission-msg {
   margin: 0;
   text-align: center; }
 
+figcaption {
+  width: 30vw;
+  margin: 0 auto;
+  text-align: center;
+  font-size: .95em; }
+
 img {
   display: block;
   max-width: 30vw;
@@ -102,6 +108,9 @@ div.portfolio-nav a.left-item {
   margin-left: 3vw; }
 div.portfolio-nav a.right-item {
   margin-right: 3vw; }
+
+div.portfolio-row {
+  margin-bottom: 10vh; }
 
 footer {
   text-align: center;
@@ -325,6 +334,9 @@ form.contact-form input[type="submit"]:hover, form.contact-form input[type="subm
     max-width: 70vw; }
 
   a.portfolio-top {
-    width: 30vw; } }
+    width: 30vw; }
+
+  div.portfolio-row {
+    margin-bottom: 3vh; } }
 
 /*# sourceMappingURL=style.css.map */
