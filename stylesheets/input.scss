@@ -413,6 +413,10 @@ form.contact-form{
 
 /************** Responsive Site **************/
 @media screen and (max-width: 45em) {
+  figcaption{
+    width: 70vw;
+  }
+
   div.flex-container{
     orient: vertical;
     flex-flow: column wrap;

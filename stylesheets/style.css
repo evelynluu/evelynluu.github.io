@@ -314,6 +314,9 @@ form.contact-form input[type="submit"]:hover, form.contact-form input[type="subm
 
 /************** Responsive Site **************/
 @media screen and (max-width: 45em) {
+  figcaption {
+    width: 70vw; }
+
   div.flex-container {
     orient: vertical;
     flex-flow: column wrap;
