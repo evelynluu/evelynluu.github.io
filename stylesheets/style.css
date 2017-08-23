@@ -55,6 +55,10 @@ figcaption {
   text-align: center;
   font-size: .95em; }
 
+figcaption.full-img {
+  width: 100%;
+  max-width: 70vw; }
+
 img {
   display: block;
   max-width: 30vw;
