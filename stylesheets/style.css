@@ -37,10 +37,12 @@ p {
   height: auto;
   margin: 5vh auto 5vh auto; }
 
-p.description {
-  margin-top: 2vh; }
+p.description-about {
+  width: 100%;
+  padding-bottom: 5vh; }
 
-p.description-centered {
+p.description-contact {
+  margin-top: 2vh;
   text-align: center; }
 
 p.submission-msg {
@@ -321,6 +323,10 @@ form.contact-form input[type="submit"]:hover, form.contact-form input[type="subm
 
 /************** Responsive Site **************/
 @media screen and (max-width: 45em) {
+  p.description-about {
+    width: 70vw;
+    padding-bottom: 5vh; }
+
   figcaption {
     width: 70vw; }
 
