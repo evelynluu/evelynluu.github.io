@@ -63,13 +63,11 @@ p{
   margin: 5vh auto 5vh auto;
 }
 
-p.description-about{
-  width: 100%;
-  padding-bottom: 5vh;
+p.description{
+  margin-top: 2vh;
 }
 
-p.description-contact{
-  margin-top: 2vh;
+p.description-centered{
   text-align: center;
 }
 
@@ -424,12 +422,6 @@ form.contact-form{
 
 /************** Responsive Site **************/
 @media screen and (max-width: 45em) {
-
-  p.description-about{
-    width: 70vw;
-    padding-bottom: 5vh;
-  }
-
   figcaption{
     width: 70vw;
   }
