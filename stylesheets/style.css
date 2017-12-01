@@ -295,6 +295,10 @@ form.contact-form input[type="submit"]:hover, form.contact-form input[type="subm
   margin-bottom: 2vh;
   clear: both; }
 
+#splash-img-link {
+  margin: 0;
+  padding: 0; }
+
 #logo-splash {
   position: relative;
   max-width: 100%;
