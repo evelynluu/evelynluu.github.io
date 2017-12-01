@@ -295,10 +295,6 @@ form.contact-form input[type="submit"]:hover, form.contact-form input[type="subm
   margin-bottom: 2vh;
   clear: both; }
 
-#splash-img-link {
-  margin: 0;
-  padding: 0; }
-
 #logo-splash {
   position: relative;
   max-width: 100%;
@@ -309,7 +305,7 @@ form.contact-form input[type="submit"]:hover, form.contact-form input[type="subm
 #logo-splash:empty {
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -10%); }
 
 #logo-splash-container {
   display: flex;

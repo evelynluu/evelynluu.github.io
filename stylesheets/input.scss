@@ -392,11 +392,6 @@ form.contact-form{
   clear: both;
 }
 
-#splash-img-link{
-  margin: 0;
-  padding: 0;
-}
-
 #logo-splash{
   position: relative;
 	max-width: 100%;
@@ -408,7 +403,7 @@ form.contact-form{
 #logo-splash:empty{
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -10%);
 }
 
 #logo-splash-container{
