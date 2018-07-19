@@ -350,6 +350,9 @@ form.contact-form input[type="submit"]:hover, form.contact-form input[type="subm
     width: 30vw; }
 
   div.portfolio-row {
-    margin-bottom: 3vh; } }
+    margin-bottom: 3vh; }
+
+  p {
+    width: 80%; } }
 
 /*# sourceMappingURL=style.css.map */
